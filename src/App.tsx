@@ -8,9 +8,6 @@ import './global.css'
 import styles from './App.module.css';
 
 
-// author: {avatar_url:"", name:"", role:""}
-// publishedAt: Date
-
 const posts = [
   {
     id: 1,
@@ -29,9 +26,9 @@ const posts = [
   {
     id: 2,
     author: {
-      avatarUrl: 'https://github.com/jenmacena19.png',
-      name: 'Jeny Macena',
-      role: 'Desenvolvedor Web'
+      avatarUrl: 'https://github.com/diego3g.png',
+      name: 'Diego Fernandes',
+      role: "CTO at @Rocketseat. Passionate about education and changing people's lives through programming."
     },
     content: [
       {type:'paragraph', content: 'Fala galeraa 👋'},
