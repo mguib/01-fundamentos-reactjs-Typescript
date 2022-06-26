@@ -17,11 +17,11 @@ interface Content{
     content: string;
 }
 
-interface PostProps {
+export interface PostProps {
     author: Author;
     publishedAt: Date;
     content: Content[];
-}
+  }
 
 export function Post({author, publishedAt, content}: PostProps) {
     const [comments, setComments] = useState([
